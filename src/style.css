@@ -13,10 +13,20 @@
     margin-top: 5px;
 }
 img.carousel{
-    width:100vw;
-    height: 90vh;
+    position: relative;
 }
-img{
-    margin: 0 auto;
-    display: flex;
+.slides{
+    position: absolute;
+    width: 100px;
+    height:auto;
+    padding:5px;
+    background: black;
+    opacity: 9;
+    color: white;
+    bottom:0;
+    right:0;
+    overflow: hidden;
+}
+.loading{
+    animation: name duration timing-function delay iteration-count direction fill-mode;
 }
