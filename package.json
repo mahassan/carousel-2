@@ -1,7 +1,7 @@
 {
   "name": "carousel-2",
   "version": "1.0.0",
-  "description": "",
+  "description": "A carousel by ammar (WIP)(ammar@ammarhassan.co.uk)",
   "main": "app.js",
   "scripts": {
     "start": "webpack --config webpack.dev.js",
