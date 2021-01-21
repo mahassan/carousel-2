@@ -4,7 +4,7 @@ const next = document.getElementById("next");
 const viewport = document.getElementById("viewport");
 let count = 1;
 
-const generateHTML = (num = 1) => {
+const generateHTML = (num) => {
     viewport.innerHTML = `
     <img class='carousel img-fluid' src="./img/${num}.jpg" alt="">
 
@@ -13,7 +13,7 @@ const generateHTML = (num = 1) => {
 
 }
 window.addEventListener("DOMContentLoaded", function () {
-    generateHTML();
+    generateHTML(1);
 })
 generateHTML();
 
